@@ -1,0 +1,16 @@
+name: Idea or request
+description: A component, variant or improvement you'd like to see
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like?
+      description: The component or change, and the app moment it's for.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What you'd use it for, or what's hard today. Links to references are welcome.
