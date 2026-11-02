@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "LumioUI Playground",
+    "slug": "lumioui-playground",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "lumioui-playground",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true },
+    "plugins": ["expo-router"],
+    "web": { "bundler": "metro", "output": "single" }
+  }
+}

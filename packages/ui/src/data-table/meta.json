@@ -1,0 +1,24 @@
+{
+  "type": "component",
+  "title": "Data Table",
+  "description": "Compact table in a card with a quiet header, tappable rows and cells that hold text or custom content. Sorting reorders rows smoothly, and the selected row stays highlighted.",
+  "category": "Data Display",
+  "registryDependencies": [
+    "icon"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ]
+}

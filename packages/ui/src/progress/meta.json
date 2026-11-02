@@ -1,0 +1,36 @@
+{
+  "description": "Progress bar that glides smoothly to each new value and gently pulses while the amount is unknown. On reaching 100% it can fold into a done line with a check and a soft pool of light.",
+  "type": "component",
+  "haptics": [
+    "success"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Progress",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "animated",
+      "title": "Animated"
+    },
+    {
+      "slug": "indeterminate",
+      "title": "Indeterminate"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Feedback"
+}

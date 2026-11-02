@@ -1,0 +1,38 @@
+{
+  "type": "component",
+  "title": "Like Button",
+  "description": "Heart toggle for social feeds that fills from the bottom up with a soft glow and updates the count in place. It fills however the post gets liked, including a double-tap on the photo.",
+  "category": "Actions",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [
+    "tap",
+    "double-tap"
+  ],
+  "haptics": [
+    "light",
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "feed",
+      "title": "Photo post"
+    },
+    {
+      "slug": "reels",
+      "title": "Video overlay"
+    },
+    {
+      "slug": "tracks",
+      "title": "Tracklist"
+    }
+  ]
+}

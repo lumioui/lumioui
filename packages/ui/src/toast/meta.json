@@ -1,0 +1,44 @@
+{
+  "description": "Toast notifications that grow out of the screen edge and stack neatly. A loading toast can turn into a success in place, and you can swipe one away or let it fade.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "light",
+    "success",
+    "warning",
+    "error"
+  ],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "swipe-dismiss",
+    "drag"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Toast",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "action",
+      "title": "Action"
+    },
+    {
+      "slug": "loading",
+      "title": "Loading"
+    },
+    {
+      "slug": "variants",
+      "title": "Export flow"
+    }
+  ],
+  "category": "Feedback"
+}

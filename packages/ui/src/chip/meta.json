@@ -1,0 +1,40 @@
+{
+  "description": "Compact pill for filters, suggestions, tags and inputs, in solid, outline and glass styles. Selecting a chip fills it quickly and it settles into place without a bounce.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "light"
+  ],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Chip",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "filters",
+      "title": "Filters"
+    },
+    {
+      "slug": "removable",
+      "title": "Removable"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Actions"
+}

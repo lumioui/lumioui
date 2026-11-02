@@ -1,0 +1,27 @@
+{
+  "description": "Loading placeholders you shape to match your content. They wait calmly and still, with no shimmer, then the real content switches on in their place, row by row.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Skeleton",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "pulse",
+      "title": "Inbox switch-on"
+    },
+    {
+      "slug": "shimmer",
+      "title": "Store grid, long wait"
+    }
+  ],
+  "category": "Feedback"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "component",
+  "title": "Pagination",
+  "description": "Pagination in three forms: numbered pages, page dots that stretch as you swipe, and a Show more button that shows loading dots and marks the end of the list.",
+  "category": "Navigation",
+  "registryDependencies": [
+    "icon",
+    "text"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap",
+    "swipe"
+  ],
+  "haptics": [
+    "selection",
+    "light"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "dots",
+      "title": "Dots"
+    },
+    {
+      "slug": "numbers",
+      "title": "Numbers"
+    },
+    {
+      "slug": "load-more",
+      "title": "Load more"
+    }
+  ]
+}

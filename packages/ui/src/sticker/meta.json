@@ -1,0 +1,22 @@
+{
+  "type": "component",
+  "title": "Sticker",
+  "description": "Die-cut sticker with a white cut edge and a soft shadow, set at a slight tilt. Press it and it lifts off the page while one corner peels back to show the white backing.",
+  "category": "Data Display",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ]
+}

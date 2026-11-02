@@ -1,0 +1,27 @@
+{
+  "description": "Thin divider line, horizontal or vertical. It can draw itself in as a page builds, or show a perforated tear line for tickets and receipts.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Separator",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "receipt",
+      "title": "Receipt"
+    },
+    {
+      "slug": "vertical",
+      "title": "Vertical"
+    }
+  ],
+  "category": "Layout"
+}

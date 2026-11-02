@@ -1,0 +1,24 @@
+{
+  "type": "component",
+  "title": "Tape",
+  "description": "Strip of tape with torn ends for holding photos, notes and stickers to the page, plain or striped, with room for a handwritten word. Press it and the near end lifts off.",
+  "category": "Data Display",
+  "registryDependencies": [
+    "sticker"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "android"
+  ]
+}

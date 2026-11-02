@@ -1,0 +1,23 @@
+{
+  "description": "Grid with a set number of equal-width columns, adjustable gaps and styling for each cell. Cells can optionally fade in one after another in reading order.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Grid",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "menu",
+      "title": "Product grid"
+    }
+  ],
+  "category": "Layout"
+}

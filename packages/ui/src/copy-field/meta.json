@@ -1,0 +1,44 @@
+{
+  "type": "component",
+  "title": "Copy Field",
+  "description": "Read-only value you copy with one tap: the copy icon turns into a check and it confirms inline, no toast. Comes as a field, row or promo code, with masking; on phones it needs a clipboard package.",
+  "category": "Forms & Inputs",
+  "registryDependencies": [
+    "icon",
+    "text"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "success",
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "invite",
+      "title": "Invite link"
+    },
+    {
+      "slug": "iban",
+      "title": "Account details"
+    },
+    {
+      "slug": "backup-codes",
+      "title": "Backup codes"
+    },
+    {
+      "slug": "promo",
+      "title": "Promo code ticket"
+    }
+  ]
+}

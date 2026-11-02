@@ -1,0 +1,43 @@
+{
+  "description": "Slider with an optional value bubble and tick marks for stepped values. The fill brightens while you drag, and it can give a brief flicker when you push past either end.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "warning"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "drag"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Slider",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "dimmer",
+      "title": "Dimmer"
+    },
+    {
+      "slug": "price",
+      "title": "Price"
+    },
+    {
+      "slug": "ticks",
+      "title": "Ticks"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

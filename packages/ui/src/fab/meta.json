@@ -1,0 +1,39 @@
+{
+  "description": "Floating action button, filled or glass, that can stretch into a labelled pill, show a spinner while work finishes, and mark an active state with a soft inner ring.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "medium",
+    "heavy"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Fab",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "extended",
+      "title": "Extended"
+    },
+    {
+      "slug": "quick-actions",
+      "title": "Quick Actions"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass disc"
+    }
+  ],
+  "category": "Actions"
+}

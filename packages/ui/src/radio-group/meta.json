@@ -1,0 +1,33 @@
+{
+  "description": "Radio options for picking one choice from a list, as simple rows or cards. The chosen dot lights up with a soft glow while the previous choice fades.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Radio Group",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "delivery",
+      "title": "Delivery windows"
+    },
+    {
+      "slug": "payment",
+      "title": "Plan picker"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

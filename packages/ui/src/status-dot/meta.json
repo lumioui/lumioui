@@ -1,0 +1,32 @@
+{
+  "type": "component",
+  "title": "Status Dot",
+  "description": "Presence and live indicator where away, offline and do-not-disturb have their own shapes, not just colours. Comes as a plain dot, a dot with a cut-out edge for avatars, or a labelled pill.",
+  "category": "Feedback",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [],
+  "haptics": [],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "presence",
+      "title": "Presence"
+    },
+    {
+      "slug": "live",
+      "title": "Live"
+    },
+    {
+      "slug": "system",
+      "title": "System status"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Hint bubble with an arrow that appears when you long-press a control. The rest of the screen dims while the control stays highlighted, then the hint fades away in place.",
+  "type": "component",
+  "haptics": [
+    "medium",
+    "selection"
+  ],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "long-press"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Tooltip",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "eta",
+      "title": "Eta"
+    },
+    {
+      "slug": "fees",
+      "title": "Fees"
+    }
+  ],
+  "category": "Overlays"
+}

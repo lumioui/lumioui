@@ -1,0 +1,27 @@
+name: Bug report
+description: Something in a component doesn't work or look right
+labels: [bug]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      placeholder: e.g. switch, slider, animated-icons
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Code, steps, and a clip or screenshot if it's visual.
+  - type: input
+    id: env
+    attributes:
+      label: Platform and versions
+      placeholder: iOS 26 / Android 15 / web · Expo 54 · React Native 0.81

@@ -1,0 +1,41 @@
+{
+  "type": "component",
+  "title": "Toolbar",
+  "description": "Bottom bar of contextual actions in edge-to-edge, docked-button or floating capsule styles. When the context changes, the old actions fade out and the new ones appear left to right.",
+  "category": "Navigation",
+  "registryDependencies": [
+    "glass",
+    "icon",
+    "text"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "light",
+    "medium"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "selection",
+      "title": "Selection mode"
+    },
+    {
+      "slug": "mail",
+      "title": "Mail"
+    },
+    {
+      "slug": "material",
+      "title": "Bottom app bar"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "@lumioui/ui",
+  "version": "0.1.0",
+  "description": "Animated React Native components for Expo, with a 3,072-icon set",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    },
+    "./card/swipeable": {
+      "types": "./dist/card/swipeable.d.ts",
+      "default": "./src/card/swipeable.tsx"
+    },
+    "./animated-number/dot-matrix": {
+      "types": "./dist/animated-number/dot-matrix.d.ts",
+      "default": "./src/animated-number/dot-matrix.tsx"
+    },
+    "./*/variants/*": {
+      "types": "./dist/*/variants/*.d.ts",
+      "default": "./src/*/variants/*.tsx"
+    },
+    "./*": {
+      "types": "./dist/*/index.d.ts",
+      "default": "./src/*/index.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node ../../scripts/tsup.mjs src/index.ts src/*/index.ts src/card/swipeable.tsx --format esm,cjs --clean --external react --external react-native --external react-native-reanimated --external react-native-css-interop --external expo-haptics --external nativewind --external react-native-safe-area-context && tsc -p tsconfig.json --noEmit false --emitDeclarationOnly --declaration --declarationMap false --sourceMap false",
+    "dev": "node ../../scripts/tsup.mjs src/index.ts src/*/index.ts src/card/swipeable.tsx --format esm,cjs --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@lumioui/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "nativewind": ">=4.0",
+    "react": ">=18",
+    "react-native": ">=0.74",
+    "react-native-reanimated": ">=3.0",
+    "react-native-safe-area-context": ">=4.0",
+    "react-native-svg": ">=15.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "nativewind": "^4.2.6",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-reanimated": "~4.1.0",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-svg": "15.12.1",
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.70.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumioui/lumioui.git",
+    "directory": "packages/ui"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Container that lifts your content above the on-screen keyboard on iOS, so fields and message bars never end up hidden behind it. On Android it leaves this to the system’s own resizing.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [
+    "scroll"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Keyboard Avoiding",
+  "showcase": [
+    "android"
+  ],
+  "category": "Mobile-Native"
+}

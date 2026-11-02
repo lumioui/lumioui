@@ -1,0 +1,33 @@
+{
+  "type": "component",
+  "title": "Circle Reveal",
+  "description": "Screen transition that floods the next screen’s colour out from the button you tapped, as a growing circle with a lit rim. Your app swaps screens under it and can move shared elements along.",
+  "category": "Signature",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "light",
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "theme",
+      "title": "Theme switch"
+    },
+    {
+      "slug": "checkout",
+      "title": "Order placed"
+    }
+  ]
+}

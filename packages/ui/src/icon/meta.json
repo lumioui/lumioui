@@ -1,0 +1,27 @@
+{
+  "description": "Icon set drawn on one consistent grid, sized and coloured from your theme. The heart, star and bookmark can fill in place inside their outline, then fade back out.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Icon",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "gallery",
+      "title": "Gallery"
+    },
+    {
+      "slug": "sizes",
+      "title": "Sizes"
+    }
+  ],
+  "category": "Data Display"
+}

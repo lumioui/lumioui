@@ -1,0 +1,38 @@
+{
+  "description": "Multiline text field that can grow as you type and show a character count. Focus highlights the field, an error gives it a single nudge, and the count turns red at the limit.",
+  "type": "component",
+  "haptics": [
+    "warning"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "typing"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Textarea",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "error",
+      "title": "Error"
+    },
+    {
+      "slug": "note",
+      "title": "Note"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

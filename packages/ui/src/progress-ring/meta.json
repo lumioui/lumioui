@@ -1,0 +1,29 @@
+{
+  "description": "Circular progress ring with a bright bead on its leading edge. Reaching 100% brightens the ring and briefly turns any centre figure into a check; an indeterminate mode laps the track.",
+  "type": "component",
+  "haptics": [
+    "success"
+  ],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Progress Ring",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "indeterminate",
+      "title": "Indeterminate"
+    },
+    {
+      "slug": "labeled",
+      "title": "Labeled"
+    }
+  ],
+  "category": "Feedback"
+}

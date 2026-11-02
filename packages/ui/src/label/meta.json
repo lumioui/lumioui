@@ -1,0 +1,17 @@
+{
+  "description": "Form label linked to its field for screen readers, with an error style that can flicker once and turn red when the field rejects its value.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Label",
+  "showcase": [
+    "iphone"
+  ],
+  "category": "Forms & Inputs"
+}

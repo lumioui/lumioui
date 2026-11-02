@@ -1,0 +1,31 @@
+{
+  "description": "Side navigation drawer that slides in over a dimmed backdrop, with rows that can appear in turn and rolling unread counts. Tap a row to highlight it and close, or swipe the drawer away.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "selection"
+  ],
+  "registryDependencies": [
+    "animated-number"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "drag"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Drawer",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "nav",
+      "title": "Nav"
+    }
+  ],
+  "category": "Navigation"
+}

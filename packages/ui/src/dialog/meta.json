@@ -1,0 +1,30 @@
+{
+  "description": "Centred modal for confirmations and short decisions. The backdrop darkens first, the panel rises with its title, message and actions, and on close it fades out in place.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "selection"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Dialog",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "confirm",
+      "title": "Confirm"
+    }
+  ],
+  "category": "Overlays"
+}

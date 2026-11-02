@@ -1,0 +1,42 @@
+{
+  "type": "component",
+  "title": "Number Input",
+  "description": "Number field between minus and plus buttons, with a prefix or unit, limits, steps and decimals. Holding a button speeds up, and each tap nudges the figure up or down as it swaps.",
+  "category": "Forms & Inputs",
+  "registryDependencies": [
+    "icon"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap",
+    "long-press",
+    "hold"
+  ],
+  "haptics": [
+    "light",
+    "selection",
+    "warning"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "recipe",
+      "title": "Recipe servings"
+    },
+    {
+      "slug": "workout",
+      "title": "Workout sets"
+    },
+    {
+      "slug": "limit",
+      "title": "Spending limit"
+    }
+  ]
+}

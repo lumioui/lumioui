@@ -1,0 +1,34 @@
+{
+  "type": "component",
+  "title": "Breadcrumb",
+  "description": "Navigation trail with the current page in full ink and earlier levels muted. New levels rise into place, going back fades crumbs away, and a collapsed “…” opens to show hidden levels.",
+  "registryDependencies": [
+    "icon"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "trail",
+      "title": "Full trail"
+    },
+    {
+      "slug": "collapsed",
+      "title": "Collapsed"
+    }
+  ],
+  "category": "Navigation"
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number that moves to each new value as a calm count-up or a roll where only the changed digits turn, set in type or in dot-matrix LEDs whose dots switch on in place. Screen readers announce just the final value, not every step.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Animated Number",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "balance",
+      "title": "Balance"
+    },
+    {
+      "slug": "stats",
+      "title": "Stats"
+    },
+    {
+      "slug": "led",
+      "title": "LED thermostat"
+    }
+  ],
+  "category": "Data Display",
+  "nativeDeps": {
+    "react-native-reanimated": "^4.0.0",
+    "react-native-svg": "^15.0.0"
+  }
+}

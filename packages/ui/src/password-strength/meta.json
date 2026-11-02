@@ -1,0 +1,21 @@
+{
+  "type": "component",
+  "title": "Password Strength",
+  "description": "Compact password strength meter for sign-up forms. Four bars light up as the password gets stronger, and common passwords are flagged straight away.",
+  "category": "Forms & Inputs",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [],
+  "haptics": [
+    "success",
+    "warning"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ]
+}

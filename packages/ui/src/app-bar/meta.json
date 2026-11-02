@@ -1,0 +1,39 @@
+{
+  "type": "component",
+  "title": "App Bar",
+  "description": "Top navigation bar that can follow your scroll: its background and edge fade in as content passes underneath, titles swap smoothly, and a floating style frosts over. Includes a large-title style.",
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "light"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "large-title",
+      "title": "Large title"
+    },
+    {
+      "slug": "actions",
+      "title": "Action row"
+    },
+    {
+      "slug": "floating",
+      "title": "Floating island"
+    }
+  ],
+  "category": "Navigation"
+}

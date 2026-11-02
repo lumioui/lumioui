@@ -1,0 +1,38 @@
+{
+  "description": "Pill or underline tabs with an indicator that glides to the chosen tab. Label colour follows the indicator, and the new panel fades up as the old one fades away.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Tabs",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "spend",
+      "title": "Savings pot"
+    },
+    {
+      "slug": "line",
+      "title": "Underline"
+    },
+    {
+      "slug": "glass",
+      "title": "Liquid capsule"
+    }
+  ],
+  "category": "Navigation"
+}

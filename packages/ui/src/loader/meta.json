@@ -1,0 +1,37 @@
+{
+  "description": "Loading indicators in seven styles, including spinner, ring, dots, bars and pulse. When the work finishes, the ring closes into a check before handing off to your content.",
+  "type": "component",
+  "haptics": [
+    "success"
+  ],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Loader",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "context",
+      "title": "Context"
+    },
+    {
+      "slug": "variants",
+      "title": "Variants"
+    },
+    {
+      "slug": "colors",
+      "title": "Colors"
+    },
+    {
+      "slug": "sizes",
+      "title": "Sizes"
+    }
+  ],
+  "category": "Feedback"
+}

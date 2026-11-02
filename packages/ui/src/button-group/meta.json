@@ -1,0 +1,29 @@
+{
+  "description": "Row of related buttons joined by shared borders. It can also work as a single-choice control, with an accent pill that glides to whichever option you pick.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Button Group",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "actions",
+      "title": "Actions"
+    },
+    {
+      "slug": "slots",
+      "title": "Slots"
+    }
+  ],
+  "category": "Actions"
+}

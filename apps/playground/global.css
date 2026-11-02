@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GENERATED from packages/core/src/tokens/colors.ts — run `node scripts/sync-tokens.mjs`. */
+@layer base {
+  :root {
+    --background: 240 11% 96%;
+    --foreground: 240 5% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 5% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 5% 4%;
+    --primary: 240 5% 4%;
+    --primary-foreground: 0 0% 100%;
+    --primary-text: 240 5% 4%;
+    --secondary: 240 9% 94%;
+    --secondary-foreground: 240 6% 10%;
+    --muted: 240 9% 94%;
+    --muted-foreground: 240 4% 38%;
+    --accent: 240 9% 94%;
+    --accent-foreground: 240 6% 10%;
+    --destructive: 358 72% 53%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 150 62% 32%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 96% 55%;
+    --warning-foreground: 240 6% 10%;
+    --border: 240 8% 90%;
+    --input: 240 8% 90%;
+    --ring: 240 5% 4%;
+    --overlay: 240 5% 4% / 0.45;
+    --chart-1: 332 83% 55%;
+    --chart-2: 173 80% 40%;
+    --chart-3: 87 74% 45%;
+    --chart-4: 354 88% 58%;
+    --chart-5: 39 100% 55%;
+    --tint-red: 354 88% 58%;
+    --tint-orange: 21 100% 55%;
+    --tint-amber: 39 100% 55%;
+    --tint-lime: 87 74% 45%;
+    --tint-green: 148 73% 42%;
+    --tint-teal: 173 80% 40%;
+    --tint-sky: 200 88% 52%;
+    --tint-blue: 224 100% 60%;
+    --tint-indigo: 239 84% 67%;
+    --tint-violet: 262 88% 63%;
+    --tint-pink: 332 83% 55%;
+    --tint-slate: 226 10% 48%;
+    --radius: 0.875rem;
+  }
+  /* NativeWind toggles `.dark` on <html> — match it directly. */
+  .dark {
+    --background: 240 5% 4%;
+    --foreground: 240 11% 96%;
+    --card: 240 6% 10%;
+    --card-foreground: 240 11% 96%;
+    --popover: 240 6% 13%;
+    --popover-foreground: 240 11% 96%;
+    --primary: 240 11% 96%;
+    --primary-foreground: 240 5% 4%;
+    --primary-text: 240 11% 96%;
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 240 11% 96%;
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 5% 15%;
+    --accent-foreground: 240 11% 96%;
+    --destructive: 358 75% 59%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 150 62% 40%;
+    --success-foreground: 240 5% 4%;
+    --warning: 40 90% 58%;
+    --warning-foreground: 240 6% 10%;
+    --border: 240 6% 17%;
+    --input: 240 6% 17%;
+    --ring: 240 11% 96%;
+    --overlay: 0 0% 0% / 0.6;
+    --chart-1: 333 85% 65%;
+    --chart-2: 172 66% 50%;
+    --chart-3: 84 69% 55%;
+    --chart-4: 354 100% 68%;
+    --chart-5: 41 100% 62%;
+    --tint-red: 354 100% 68%;
+    --tint-orange: 22 100% 63%;
+    --tint-amber: 41 100% 62%;
+    --tint-lime: 84 69% 55%;
+    --tint-green: 151 65% 54%;
+    --tint-teal: 172 66% 50%;
+    --tint-sky: 200 100% 65%;
+    --tint-blue: 222 100% 68%;
+    --tint-indigo: 239 88% 74%;
+    --tint-violet: 260 89% 73%;
+    --tint-pink: 333 85% 65%;
+    --tint-slate: 228 12% 60%;
+  }
+}

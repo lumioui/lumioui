@@ -1,0 +1,29 @@
+{
+  "description": "Placeholder for empty lists, no search results and errors, with an icon, headline, short message and action. Soft light falls from the top as the content fades in.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Empty State",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "variants",
+      "title": "Variants"
+    },
+    {
+      "slug": "search",
+      "title": "Search"
+    }
+  ],
+  "category": "Feedback"
+}

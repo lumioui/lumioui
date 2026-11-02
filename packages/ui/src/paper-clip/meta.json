@@ -1,0 +1,24 @@
+{
+  "type": "component",
+  "title": "Paper Clip",
+  "description": "Wire paper clip over the top edge of a card, optionally holding a paper tab with a handwritten label. Press the tab and it slides up out of the clip.",
+  "category": "Data Display",
+  "registryDependencies": [
+    "sticker"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ]
+}

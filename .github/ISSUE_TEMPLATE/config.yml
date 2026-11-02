@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Docs and live demos
+    url: https://lumioui.com/components
+    about: Every component with a live preview and its props.

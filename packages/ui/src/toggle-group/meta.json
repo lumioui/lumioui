@@ -1,0 +1,32 @@
+{
+  "description": "Group of toggle buttons for single or multiple selection. A highlight glides between choices, or neighbouring picks join into one continuous run.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "warning"
+  ],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Toggle Group",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "multiple",
+      "title": "Multiple"
+    },
+    {
+      "slug": "single",
+      "title": "Single"
+    }
+  ],
+  "category": "Actions"
+}

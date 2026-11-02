@@ -1,0 +1,38 @@
+{
+  "description": "Segmented control for switching between a few options, with text segments that can carry icons. The highlight slides smoothly to your pick and can be dragged, and a glass style suits photos.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "drag"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Segmented Control",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "objects",
+      "title": "Objects"
+    },
+    {
+      "slug": "strings",
+      "title": "Strings"
+    },
+    {
+      "slug": "glass",
+      "title": "Liquid capsule"
+    }
+  ],
+  "category": "Navigation"
+}

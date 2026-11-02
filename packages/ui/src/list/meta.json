@@ -1,0 +1,39 @@
+{
+  "description": "Settings-style list with grouped sections, separators and press feedback. Rows can brighten under your finger and appear one after another in reading order.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "List",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "contacts",
+      "title": "Contacts"
+    },
+    {
+      "slug": "orders",
+      "title": "Orders"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Layout"
+}

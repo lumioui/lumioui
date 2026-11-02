@@ -1,0 +1,37 @@
+{
+  "description": "Select field that opens a bottom sheet of options. Your pick lights up with a check, then the sheet closes and the field shows the new value; drag down to dismiss.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "light"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "scroll",
+    "swipe-dismiss",
+    "drag"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Select",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "payment",
+      "title": "Move money"
+    },
+    {
+      "slug": "slot",
+      "title": "Event details"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

@@ -1,0 +1,34 @@
+{
+  "type": "component",
+  "title": "Avatar Group",
+  "description": "Overlapping stack of avatars with a cut-out ring around each face and a +N count for the rest. When someone joins, the others slide over to make room and the count updates in place.",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "light"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "overflow",
+      "title": "Overflow"
+    },
+    {
+      "slug": "sizes",
+      "title": "Sizes"
+    }
+  ],
+  "category": "Data Display"
+}

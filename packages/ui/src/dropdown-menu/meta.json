@@ -1,0 +1,35 @@
+{
+  "description": "Menu anchored to its button that grows out of the trigger, with rows appearing in turn. Checkable items draw their tick and pause briefly before the menu closes.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "selection",
+    "warning"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Dropdown Menu",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "thread",
+      "title": "Thread"
+    },
+    {
+      "slug": "sort",
+      "title": "Sort"
+    }
+  ],
+  "category": "Actions"
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Image with a placeholder while it loads, a fallback when it fails, and aspect-ratio handling so your layout doesn’t jump when the picture arrives.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Image",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "fallback",
+      "title": "Fallback"
+    },
+    {
+      "slug": "photo",
+      "title": "Photo"
+    },
+    {
+      "slug": "rounded",
+      "title": "Rounded"
+    }
+  ],
+  "category": "Data Display"
+}

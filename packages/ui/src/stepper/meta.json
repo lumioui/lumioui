@@ -1,0 +1,37 @@
+{
+  "description": "Plus and minus quantity control whose number slides in the direction you change it. Hold to repeat faster, with an optional fill showing how close you are to the limit.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "selection",
+    "warning"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "long-press",
+    "hold"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Stepper",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "compact",
+      "title": "Compact"
+    },
+    {
+      "slug": "quantity",
+      "title": "Quantity"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

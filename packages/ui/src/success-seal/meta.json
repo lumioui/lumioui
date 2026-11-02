@@ -1,0 +1,32 @@
+{
+  "type": "component",
+  "title": "Success Seal",
+  "description": "Success moment that stamps a seal onto the receipt, ticket or card that was just paid. Also works as a standalone hero above a title, and shows a clear cross on a decline.",
+  "category": "Feedback",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [],
+  "haptics": [
+    "success",
+    "warning",
+    "error"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "payment",
+      "title": "Payment"
+    },
+    {
+      "slug": "declined",
+      "title": "Declined"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Small panel anchored to the button that opened it, growing out from that spot. Its content fades in just after the panel appears, and the whole panel dims away when it closes.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "selection"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Popover",
+  "showcase": [
+    "iphone"
+  ],
+  "category": "Overlays"
+}

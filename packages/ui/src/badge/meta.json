@@ -1,0 +1,39 @@
+{
+  "description": "Compact status pill with variants, icons and a live dot. Changing status crossfades the colour instead of snapping, success shows a check, and loading shows three pulsing dots.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Badge",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "loading",
+      "title": "Loading"
+    },
+    {
+      "slug": "status",
+      "title": "Status"
+    },
+    {
+      "slug": "variants",
+      "title": "Variants"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Data Display"
+}

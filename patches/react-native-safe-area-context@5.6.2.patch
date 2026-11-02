@@ -1,0 +1,48 @@
+diff --git a/lib/commonjs/SafeAreaView.web.js b/lib/commonjs/SafeAreaView.web.js
+index 903425e96c8edcae4d481e64f6c41522201ba4de..b5d91e5d051b665936b2e94b382ba2b4ae12d9f6 100644
+--- a/lib/commonjs/SafeAreaView.web.js
++++ b/lib/commonjs/SafeAreaView.web.js
+@@ -37,12 +37,18 @@ const SafeAreaView = exports.SafeAreaView = /*#__PURE__*/React.forwardRef(({
+     if (edges == null) {
+       return defaultEdges;
+     }
+-    return Array.isArray(edges) ? edges.reduce((acc, edge) => {
++    const specified = Array.isArray(edges) ? edges.reduce((acc, edge) => {
+       acc[edge] = 'additive';
+       return acc;
+     }, {}) :
+     // ts has trouble with refining readonly arrays.
+     edges;
++    // Match native semantics: edges not listed are 'off' — undefined
++    // otherwise falls through to additive in getEdgeValue and pads every edge.
++    return ['top', 'left', 'bottom', 'right'].reduce((acc, edge) => {
++      acc[edge] = specified[edge] || 'off';
++      return acc;
++    }, {});
+   }, [edges]);
+   const appliedStyle = React.useMemo(() => {
+     const flatStyle = _reactNative.StyleSheet.flatten(style);
+diff --git a/lib/module/SafeAreaView.web.js b/lib/module/SafeAreaView.web.js
+index 99856ad2cc918ed35cb65f7b35bacc7cbf65ca16..c6f099b081a8ef4f836b24f592d6b9ba3a9077c3 100644
+--- a/lib/module/SafeAreaView.web.js
++++ b/lib/module/SafeAreaView.web.js
+@@ -30,12 +30,18 @@ export const SafeAreaView = /*#__PURE__*/React.forwardRef(({
+     if (edges == null) {
+       return defaultEdges;
+     }
+-    return Array.isArray(edges) ? edges.reduce((acc, edge) => {
++    const specified = Array.isArray(edges) ? edges.reduce((acc, edge) => {
+       acc[edge] = 'additive';
+       return acc;
+     }, {}) :
+     // ts has trouble with refining readonly arrays.
+     edges;
++    // Match native semantics: edges not listed are 'off' — undefined
++    // otherwise falls through to additive in getEdgeValue and pads every edge.
++    return ['top', 'left', 'bottom', 'right'].reduce((acc, edge) => {
++      acc[edge] = specified[edge] || 'off';
++      return acc;
++    }, {});
+   }, [edges]);
+   const appliedStyle = React.useMemo(() => {
+     const flatStyle = StyleSheet.flatten(style);

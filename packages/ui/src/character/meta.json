@@ -1,0 +1,18 @@
+{
+  "type": "component",
+  "title": "Character",
+  "description": "Shape character built from primitives: a squircle, cloud, blob or circle with two dot or pill eyes. Shape, colour, expression and brightness are props, so it can carry a value, sit inline in a headline and morph between steps.",
+  "category": "Signature",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [],
+  "haptics": [],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ]
+}

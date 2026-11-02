@@ -1,0 +1,35 @@
+{
+  "description": "Light and dark mode toggle with a drawn sun that turns into a crescent moon. Comes as an icon, pill or switch, and passes on where you tapped so your app can flood the new theme out from the button.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Theme Toggle",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "icon",
+      "title": "Icon"
+    },
+    {
+      "slug": "pill",
+      "title": "Pill"
+    },
+    {
+      "slug": "switch",
+      "title": "Switch"
+    }
+  ],
+  "category": "Mobile-Native"
+}

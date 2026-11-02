@@ -1,0 +1,27 @@
+{
+  "type": "component",
+  "title": "Tag Input",
+  "description": "Tag entry where what you type turns into a chip right where it is. Chips reflow smoothly as they’re added or removed, and a duplicate tag flickers its existing chip.",
+  "category": "Forms & Inputs",
+  "registryDependencies": [
+    "chip"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap",
+    "typing"
+  ],
+  "haptics": [
+    "selection",
+    "light",
+    "warning"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ]
+}

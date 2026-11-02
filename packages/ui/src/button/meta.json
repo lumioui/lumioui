@@ -1,0 +1,40 @@
+{
+  "description": "Pill button that presses down under your finger, in eight styles from solid to glass, with a built-in loading state that swaps in place while an action runs.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "medium",
+    "heavy"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Button",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "sizes",
+      "title": "Sizes"
+    },
+    {
+      "slug": "styles",
+      "title": "Styles"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Actions"
+}

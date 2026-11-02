@@ -1,0 +1,37 @@
+{
+  "description": "Building blocks for forms and settings: labelled fields, sections, rows and messages. Labels can brighten once a value is valid, and row values update in place as they change.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "selection",
+    "success",
+    "warning"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "typing"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Form",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "checkout",
+      "title": "Add card"
+    },
+    {
+      "slug": "preferences",
+      "title": "Preferences"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

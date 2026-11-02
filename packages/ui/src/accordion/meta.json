@@ -1,0 +1,36 @@
+{
+  "description": "Expandable sections that grow in place and gently push the content below. Allows single or multiple open items, with an optional mode that highlights the section you open.",
+  "type": "component",
+  "haptics": [
+    "light"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "double-tap",
+    "swipe",
+    "drag"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Accordion",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "multiple",
+      "title": "Multiple"
+    },
+    {
+      "slug": "single",
+      "title": "Single"
+    }
+  ],
+  "category": "Layout"
+}

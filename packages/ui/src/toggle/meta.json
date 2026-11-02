@@ -1,0 +1,41 @@
+{
+  "description": "On/off control that shows as a switch, or as a button whose fill spreads out from where you press. Turning off fades the fill back, and a disabled toggle flickers once when tapped.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "light",
+    "warning"
+  ],
+  "registryDependencies": [
+    "glass",
+    "switch"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Toggle",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "button",
+      "title": "Button"
+    },
+    {
+      "slug": "connectivity",
+      "title": "Connectivity"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Actions"
+}

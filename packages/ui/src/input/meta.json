@@ -1,0 +1,33 @@
+{
+  "description": "Labelled text field that lights up on focus, draws a check when you mark the value as good, and gives one quick flicker on error. Supports helper text, icons and a fill-as-you-type underline.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "typing"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Input",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "checkout",
+      "title": "Shipping"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

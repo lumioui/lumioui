@@ -1,0 +1,29 @@
+{
+  "description": "Expandable section that reveals extra details in place. The panel opens smoothly, its contents can fade in row by row, and closing folds everything neatly away.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Collapsible",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "order-details",
+      "title": "Order Details"
+    }
+  ],
+  "category": "Layout"
+}

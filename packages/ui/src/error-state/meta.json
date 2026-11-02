@@ -1,0 +1,44 @@
+{
+  "type": "component",
+  "title": "Error State",
+  "description": "Error screen or section for offline, not found, server and permission problems, optionally over a faint outline of what failed. It can retry on a countdown and hand smoothly back to your content.",
+  "category": "Feedback",
+  "registryDependencies": [
+    "button",
+    "icon"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "light",
+    "warning"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "offline",
+      "title": "Offline"
+    },
+    {
+      "slug": "not-found",
+      "title": "Not found"
+    },
+    {
+      "slug": "permission",
+      "title": "Permission denied"
+    },
+    {
+      "slug": "inline",
+      "title": "Inline with auto-retry"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "description": "On/off switch whose colour fills in from behind the thumb as it turns on. Turning off fades it back quickly, and a disabled switch gives a gentle flicker when tapped.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "warning"
+  ],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Switch",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "settings",
+      "title": "Settings"
+    },
+    {
+      "slug": "standalone",
+      "title": "Standalone"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

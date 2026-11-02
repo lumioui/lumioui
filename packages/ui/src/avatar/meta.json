@@ -1,0 +1,37 @@
+{
+  "description": "Circular profile image with fallback initials and a presence dot. An optional mode shows presence on the photo itself, bright when online and faded when away or offline.",
+  "type": "component",
+  "haptics": [
+    "light"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Avatar",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "fallback",
+      "title": "Fallback"
+    },
+    {
+      "slug": "presence",
+      "title": "Presence"
+    },
+    {
+      "slug": "sizes",
+      "title": "Sizes"
+    }
+  ],
+  "category": "Data Display"
+}

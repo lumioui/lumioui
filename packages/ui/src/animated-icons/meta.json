@@ -1,0 +1,19 @@
+{
+  "description": "Hand-drawn icon set that rests still until you set it moving with springs, draw-ons and morphs. A short trace of light runs along each icon as it moves. Looping is kept for icons tied to a live state.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Animated Icons",
+  "showcase": [
+    "iphone"
+  ],
+  "category": "Signature"
+}

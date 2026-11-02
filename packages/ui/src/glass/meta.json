@@ -1,0 +1,21 @@
+{
+  "type": "component",
+  "title": "Glass",
+  "description": "Glass surface for cards and controls: system glass on newer iOS, real refraction on the web and a frosted look elsewhere. Light can gather under your finger, and panes merge on newer iOS and the web.",
+  "category": "Layout",
+  "registryDependencies": [],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "showcase": [
+    "iphone"
+  ]
+}

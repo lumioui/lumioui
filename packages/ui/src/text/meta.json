@@ -1,0 +1,23 @@
+{
+  "description": "Themed type scale from caption to display that follows light and dark mode. Includes a pull-quote style with an accent rule and a quieter dimmed tone for secondary text.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Text",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "scale",
+      "title": "Scale"
+    }
+  ],
+  "category": "Data Display"
+}

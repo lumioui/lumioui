@@ -1,0 +1,37 @@
+{
+  "description": "Inline status card that can resolve in place: its icon draws a check and the card can fold down to a shorter message. Also includes a modal alert that rises over a dimmed screen.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "warning",
+    "error",
+    "success"
+  ],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Alert",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "inline",
+      "title": "Inline"
+    },
+    {
+      "slug": "modal",
+      "title": "Modal"
+    }
+  ],
+  "category": "Feedback"
+}

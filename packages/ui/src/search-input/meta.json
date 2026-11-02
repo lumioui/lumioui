@@ -1,0 +1,36 @@
+{
+  "description": "Search field with a clear button and a busy indicator while results load. Focus brightens the field, matching text in results can be highlighted, and a frosted glass style is included.",
+  "type": "component",
+  "haptics": [
+    "selection",
+    "warning"
+  ],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "typing"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Search Input",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "directory",
+      "title": "Team directory"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass capsule"
+    }
+  ],
+  "category": "Forms & Inputs"
+}

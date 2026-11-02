@@ -1,0 +1,21 @@
+packages:
+  - "packages/*"
+  - "apps/*"
+
+allowBuilds:
+  esbuild: true
+  sharp: true
+
+dedupePeerDependents: true
+
+# Pin shared peers so every package resolves ONE copy. Without this,
+# unbounded peer ranges (react-native@>=0.74) pull newer versions into a
+# second peer context -> duplicate react-native-safe-area-context instances
+# -> SafeAreaInsetsContext identity split -> SafeAreaView throws
+# "No safe area value available" inside previews.
+overrides:
+  react: "19.1.0"
+  react-native: "0.81.5"
+
+patchedDependencies:
+  react-native-safe-area-context@5.6.2: patches/react-native-safe-area-context@5.6.2.patch

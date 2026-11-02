@@ -1,0 +1,24 @@
+{
+  "type": "component",
+  "title": "Postage Stamp",
+  "description": "Postage stamp with a perforated edge drawn in SVG, a printed value and country, and an optional postmark inked across the corner. Press it to lift it off the envelope.",
+  "category": "Data Display",
+  "registryDependencies": [
+    "sticker"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "android"
+  ]
+}

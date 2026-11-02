@@ -1,0 +1,45 @@
+{
+  "description": "Building blocks for swapping a label or icon in place: the old one fades as the new one appears, plainly, with a small lift or letter by letter. Includes button, text, icon and multi-state versions.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Action Swap",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "modes",
+      "title": "Modes"
+    },
+    {
+      "slug": "sort",
+      "title": "Sort"
+    },
+    {
+      "slug": "styles",
+      "title": "Styles"
+    },
+    {
+      "slug": "text-swap",
+      "title": "Text Swap"
+    },
+    {
+      "slug": "view-modes",
+      "title": "View Modes"
+    }
+  ],
+  "category": "Signature"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "component",
+  "title": "Typing Indicator",
+  "description": "Chat typing indicator with three dots that brighten in turn. When the reply arrives, the bubble grows to fit it and the words appear in reading order.",
+  "category": "Mobile-Native",
+  "registryDependencies": [],
+  "nativeDeps": {
+    "react-native-reanimated": "^4.0.0"
+  },
+  "gestures": [],
+  "haptics": [],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "thread",
+      "title": "In a thread"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Detached sheet of actions that rises from the bottom over a fading backdrop. Your pick stays highlighted as the other rows dim, then the sheet closes. Drag down or tap outside to dismiss.",
+  "type": "component",
+  "haptics": [
+    "light",
+    "selection",
+    "warning"
+  ],
+  "registryDependencies": [
+    "glass"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap",
+    "swipe",
+    "drag"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Action Sheet",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "confirm",
+      "title": "Confirm"
+    },
+    {
+      "slug": "share",
+      "title": "Share"
+    }
+  ],
+  "category": "Overlays"
+}

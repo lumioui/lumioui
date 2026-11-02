@@ -1,0 +1,39 @@
+{
+  "description": "Card surface with header, title, content and footer slots and a softly lit edge. It can reveal its parts in reading order as it appears, and its edge can brighten as you press it.",
+  "type": "component",
+  "haptics": [
+    "light"
+  ],
+  "registryDependencies": [
+    "glass",
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Card",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "profile",
+      "title": "Profile"
+    },
+    {
+      "slug": "ticket",
+      "title": "Ticket"
+    },
+    {
+      "slug": "glass",
+      "title": "Glass",
+      "design": "glass"
+    }
+  ],
+  "category": "Layout"
+}

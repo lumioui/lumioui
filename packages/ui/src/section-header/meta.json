@@ -1,0 +1,44 @@
+{
+  "type": "component",
+  "title": "Section Header",
+  "description": "Header row that opens a content section, with a title, count, subtitle and a “See all” style action. Includes inline text tabs and a count that can update digit by digit.",
+  "category": "Layout",
+  "registryDependencies": [
+    "icon",
+    "text"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "light",
+    "selection"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "editorial",
+      "title": "Editorial"
+    },
+    {
+      "slug": "grouped",
+      "title": "Grouped"
+    },
+    {
+      "slug": "tabs",
+      "title": "Tabs"
+    },
+    {
+      "slug": "media",
+      "title": "Media"
+    }
+  ]
+}

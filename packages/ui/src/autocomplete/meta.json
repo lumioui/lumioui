@@ -1,0 +1,41 @@
+{
+  "type": "component",
+  "title": "Autocomplete",
+  "description": "Search field with live suggestions that highlight the letters you’ve typed. Shows recent searches while empty and a loading state, and picking a row lifts it straight into the field.",
+  "category": "Forms & Inputs",
+  "registryDependencies": [
+    "icon",
+    "search-input",
+    "skeleton"
+  ],
+  "nativeDeps": {},
+  "gestures": [
+    "tap"
+  ],
+  "haptics": [
+    "selection",
+    "light"
+  ],
+  "expoGoCompatible": true,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "places",
+      "title": "Station search"
+    },
+    {
+      "slug": "address",
+      "title": "Address lookup"
+    },
+    {
+      "slug": "recipients",
+      "title": "Payment recipient"
+    }
+  ]
+}

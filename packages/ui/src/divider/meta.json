@@ -1,0 +1,27 @@
+{
+  "description": "Thin line that separates content, horizontal or vertical, with an optional centred label. An optional soft style fades the lines from the edges toward the label, and can brighten them.",
+  "type": "component",
+  "haptics": [],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Divider",
+  "showcase": [
+    "iphone"
+  ],
+  "variants": [
+    {
+      "slug": "labeled",
+      "title": "Labeled"
+    },
+    {
+      "slug": "vertical",
+      "title": "Vertical"
+    }
+  ],
+  "category": "Layout"
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Vertical and horizontal layout stacks with even spacing between items. Children can reveal in order, and adding or removing items smoothly moves the rest into place.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [],
+  "expoGoCompatible": true,
+  "gestures": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Stack",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "box",
+      "title": "Box"
+    },
+    {
+      "slug": "hstack",
+      "title": "Hstack"
+    },
+    {
+      "slug": "vstack",
+      "title": "Vstack"
+    }
+  ],
+  "category": "Layout"
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Checkbox whose fill appears as the check draws on, with a gentle haptic tick. Supports an indeterminate dash, can strike through a task’s label when ticked, and clearing fades the check out.",
+  "type": "component",
+  "haptics": [
+    "selection"
+  ],
+  "registryDependencies": [
+    "icon"
+  ],
+  "expoGoCompatible": true,
+  "gestures": [
+    "tap"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "title": "Checkbox",
+  "showcase": [
+    "android"
+  ],
+  "variants": [
+    {
+      "slug": "list",
+      "title": "List"
+    },
+    {
+      "slug": "states",
+      "title": "States"
+    }
+  ],
+  "category": "Forms & Inputs"
+}
